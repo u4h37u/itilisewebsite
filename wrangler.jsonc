@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "itilise-website",
+  "name": "itilisewebsite",
   "main": "worker/index.ts",
   "compatibility_date": "2026-08-01",
   "assets": {
@@ -11,7 +11,7 @@
   "kv_namespaces": [
     {
       "binding": "CONTACT_KV",
-      "id": "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+      "id": "a807734353f24410b2c731339301f3a6"
     }
   ]
 }
