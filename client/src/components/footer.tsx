@@ -1,4 +1,3 @@
-import { Linkedin, Twitter, Facebook } from "lucide-react";
 import itiliseLogo from "@assets/Itilise Logo_redraw-01_1750344710701.png";
 
 export default function Footer() {
@@ -26,12 +25,6 @@ export default function Footer() {
     { name: "Terms of Service", href: "#" },
   ];
 
-  const socialLinks = [
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Facebook, href: "#", label: "Facebook" },
-  ];
-
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -45,18 +38,6 @@ export default function Footer() {
             <p className="text-gray-400 mb-4 max-w-md">
               Professional training and consultancy services delivering excellence in project management, agile methodologies, and IT service management.
             </p>
-            <div className="flex space-x-4">
-              {socialLinks.map((social) => (
-                <a
-                  key={social.label}
-                  href={social.href}
-                  className="text-gray-400 hover:text-itilise-teal transition-colors"
-                  aria-label={social.label}
-                >
-                  <social.icon className="w-6 h-6" />
-                </a>
-              ))}
-            </div>
           </div>
           
           <div>
