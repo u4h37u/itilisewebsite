@@ -93,7 +93,8 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 ITILISE Ltd. All rights reserved.</p>
+          <p>&copy; 2026 ITILISE Ltd. All rights reserved.</p>
+          <p className="mt-1 text-sm">Company registration number: 11289377</p>
         </div>
       </div>
     </footer>
